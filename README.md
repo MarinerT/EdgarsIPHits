@@ -22,3 +22,7 @@ Alternative Hypothesis: There has been a decrease in the proportion of hits on E
 ## The Methodology
 
 ## Preliminary Results
+
+*Country Distribution
+
+*Browser distributtion over time / by country [useful in targeting/exposing vulnerabilities in networks]
