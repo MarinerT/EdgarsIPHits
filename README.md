@@ -16,13 +16,23 @@ Alternative Hypothesis: There has been a decrease in the proportion of hits on E
 *Size*
 *Years*
 *Columns*
-*Features & their Types*
+**IP Address: Categorical**
+The IP address consists of three numbers and three letters in the last octatet to conceal the user's identity.
+**CIK: Categorical** 
+The CIK represents the filer's registration number. This can be the company itself or a third party filer.
+**Accession Number: Categorical**
+
+
 *NaN or missing data*
+Browser: the information is Perl code and shows as NaN.
+Crawler: values are 0. 
 
 ## The Methodology
 
 ## Preliminary Results
 
-*Country Distribution
+**Top 10 Most common companies looked for in 2003 v 2016**
+**Top Company looked for by Country**
 
-*Browser distributtion over time / by country [useful in targeting/exposing vulnerabilities in networks]
+## Future Research
+**Browser** Looking at possible browsers used to obtain the documents can provide valuable. Determining trends in browser use could assist developers in prioritizing security features, as well as provide cyber combat units with possible attack vectors specified by country and time of day. 
