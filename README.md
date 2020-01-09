@@ -47,8 +47,9 @@ The following columns had lack of relevant information: extention, code, size, i
 Additionally the 2010 Log is missing a country for 299 entries.
 ## Analysis
 
+![US v Globe] (https://github.com/MarinerT/EdgarIPHits/data/usvgb.png)
 
-## Hypothesis Testing
+#### Hypothesis Testing
 **Hypothesis Test for Difference in Proportions**
 We would expect the same proportion of US Hits in 2017 as US Hits in 2010. 
 
