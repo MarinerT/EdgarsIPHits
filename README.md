@@ -26,15 +26,25 @@ ubuntu@ip-172-31-80-58:~/data$ sed -n /"09:30:00"/,/"09:40:00"/p log20170630.csv
 
 2003 LOG >   1914
 
-*Columns*
+#### Features
 **IP Address: Categorical**
 The IP address consists of three numbers and three letters in the last octatet to conceal the user's identity.
+
 **CIK: Categorical** 
 The CIK represents the filer's registration number. This can be the company itself or a third party filer.
+
 **Accession Number: Categorical**
+The Accession number represents a serial number for the document filed. 
 
+**Country: Categorical**
+Represents the country of origin for the IP Address.
 
-*NaN or missing data*
+#### Unique Values
+Number of Countries Represented:
+Number of Documents:
+Number of Filers:
+
+#### NaN or Missing Data
 Browser: the information is Perl code and shows as NaN.
 Crawler: values are 0. 
 
