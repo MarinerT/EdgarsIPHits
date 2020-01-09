@@ -47,13 +47,19 @@ The following columns had lack of relevant information: extention, code, size, i
 Additionally the 2010 Log is missing a country for 299 entries.
 ## Analysis
 
-**Top 10 Most common companies looked for in 2003 v 2016**
-**Top Company looked for by Country**
 
 ## Hypothesis Testing
-H<sub>*0*</sub>: *p-hat* >= .9 
+**Hypothesis Test for Difference in Proportions**
+We would expect the same proportion of US Hits in 2017 as US Hits in 2010. 
 
-H<sub>*A*</sub>: *p-hat* < .9
+H<sub>*0*</sub>: *p<sub>2017</sub>* = *p<sub>2010</sub>*  
+
+H<sub>*A*</sub>: *p<sub>2017</sub>* < *p<sub>2010</sub>* 
+
+alpha = .05
+The sample is random, normal, independent, and does not represent more than 10% of the population.
+
+
 
 ## Future Research
 **Browser** Looking at possible browsers used to obtain the documents can provide valuable. Determining trends in browser use could assist developers in prioritizing security features, as well as provide cyber combat units with possible attack vectors specified by country and time of day. 
