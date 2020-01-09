@@ -47,10 +47,9 @@ Number of Documents:
 Number of Filers:
 
 #### NaN or Missing Data
-Browser: the information is Perl code and shows as NaN.
-Crawler: values are 0. 
+The following columns had lack of relevant information: extention, code, size, idx, norefer, noagent, find, crawler, browser.
 
-## The Methodology
+## The Methodology.
 
 ## Preliminary Results
 
