@@ -13,8 +13,19 @@ Null Hypothesis: There has been no change or an increase in the proportion of hi
 Alternative Hypothesis: There has been a decrease in the proportion of hits on EDGAR.
 
 ## The Data
-*Size*
-*Years*
+#### Size
+Three log files each 7 years apart selected for the period JUNE 30 09:30:00 - 09:40:00, when both the New York and London stock exchanges are simultaneously open. 
+```bash
+ubuntu@ip-172-31-80-58:~/data$ sed -n /"09:30:00"/,/"09:40:00"/p log20100630.csv > openplustten2010.csv
+ubuntu@ip-172-31-80-58:~/data$ sed -n /"09:30:00"/,/"09:40:00"/p log20030630.csv > openplustten2003.csv
+ubuntu@ip-172-31-80-58:~/data$ sed -n /"09:30:00"/,/"09:40:00"/p log20170630.csv > openplustten2017.csv
+```
+2017 LOG > 153799
+
+2010 LOG >  17600
+
+2003 LOG >   1914
+
 *Columns*
 **IP Address: Categorical**
 The IP address consists of three numbers and three letters in the last octatet to conceal the user's identity.
