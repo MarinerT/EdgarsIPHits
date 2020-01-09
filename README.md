@@ -15,11 +15,7 @@ Alternative Hypothesis: There has been a decrease in the proportion of hits on E
 ## The Data
 #### Size
 Three log files each 7 years apart selected for the period JUNE 30 09:30:00 - 09:40:00, when both the New York and London stock exchanges are simultaneously open. 
-```bash
-ubuntu@ip-172-31-80-58:~/data$ sed -n /"09:30:00"/,/"09:40:00"/p log20100630.csv > openplustten2010.csv
-ubuntu@ip-172-31-80-58:~/data$ sed -n /"09:30:00"/,/"09:40:00"/p log20030630.csv > openplustten2003.csv
-ubuntu@ip-172-31-80-58:~/data$ sed -n /"09:30:00"/,/"09:40:00"/p log20170630.csv > openplustten2017.csv
-```
+
 2017 LOG > 153799
 
 2010 LOG >  17600
@@ -40,7 +36,7 @@ The Accession number represents a serial number for the document filed.
 Represents the country of origin for the IP Address.
 
 #### Unique Values
-Number of Countries Represented:
+Number of Countries Represented: 2003: 21; 2010: ;2017:69
 
 Number of Documents:
 
@@ -49,9 +45,7 @@ Number of Filers:
 #### NaN or Missing Data
 The following columns had lack of relevant information: extention, code, size, idx, norefer, noagent, find, crawler, browser.
 
-## The Methodology.
-
-## Preliminary Results
+## Analysis
 
 **Top 10 Most common companies looked for in 2003 v 2016**
 **Top Company looked for by Country**
