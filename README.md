@@ -36,7 +36,7 @@ The Accession number represents a serial number for the document filed.
 Represents the country of origin for the IP Address.
 
 #### Unique Values
-Number of Countries Represented: 2003: 21; 2010: ;2017:69
+Number of Countries Represented: 2003: 21; 2010: 47; 2017: 69
 
 Number of Documents:
 
