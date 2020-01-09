@@ -38,13 +38,13 @@ Represents the country of origin for the IP Address.
 #### Unique Values
 Number of Countries Represented: 2003: 21; 2010: 47; 2017: 69
 
-Number of Documents:
+Number of Documents: 2003: 1186; 2010: 7659; 2017: 77710
 
-Number of Filers:
+Number of Filers: 2003: 684; 2010: 5217; 2017: 22705
 
 #### NaN or Missing Data
 The following columns had lack of relevant information: extention, code, size, idx, norefer, noagent, find, crawler, browser.
-
+Additionally the 2010 Log is missing a country for 299 entries.
 ## Analysis
 
 **Top 10 Most common companies looked for in 2003 v 2016**
