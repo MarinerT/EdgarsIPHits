@@ -41,7 +41,9 @@ Represents the country of origin for the IP Address.
 
 #### Unique Values
 Number of Countries Represented:
+
 Number of Documents:
+
 Number of Filers:
 
 #### NaN or Missing Data
