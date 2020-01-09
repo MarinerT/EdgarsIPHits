@@ -50,5 +50,10 @@ Additionally the 2010 Log is missing a country for 299 entries.
 **Top 10 Most common companies looked for in 2003 v 2016**
 **Top Company looked for by Country**
 
+## Hypothesis Testing
+H<sub>*0*</sub>: *p-hat* >= .9 
+
+H<sub>*A*</sub>: *p-hat* < .9
+
 ## Future Research
 **Browser** Looking at possible browsers used to obtain the documents can provide valuable. Determining trends in browser use could assist developers in prioritizing security features, as well as provide cyber combat units with possible attack vectors specified by country and time of day. 
