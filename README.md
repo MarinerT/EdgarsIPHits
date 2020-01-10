@@ -75,7 +75,10 @@ The Distribution of Proportions
 ![alt](data/DistributionofDiff_Null.png)
 Difference in Sample Proportions: .19
 
-![alt](data/p-value Region.png)
+<p align="center">
+  <img width="460" height="300" src="data/p-value Region.png">
+</p>
+
 p-value = 0.00
 
 Since the p-value < alpha, we can reject the Null Hypothesis. 
