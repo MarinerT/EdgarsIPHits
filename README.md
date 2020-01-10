@@ -29,18 +29,23 @@ Accession Number | Categorical | The Accession number represents a serial number
 Country | Categorical | Represents the country of origin for the IP Address.
 
 #### Unique Values
-Number of Countries Represented: 2003: 21; 2010: 47; 2017: 69
 
-Number of Documents: 2003: 1186; 2010: 7659; 2017: 77710
+![alt](data/numco.png)
+<details><summary>Number of Countries</summary></details>
 
-Number of Filers: 2003: 684; 2010: 5217; 2017: 22705
+![alt](data/numdoc.png)
+<details><summary>Number of Documents</summary></details>
+
+![alt](data/numfiler.png)
+<details><summary>Number of Filers</summary></details>
+
 
 #### NaN or Missing Data
 The following columns had lack of relevant information: extention, code, size, idx, norefer, noagent, find, crawler, browser.
 Additionally the 2010 Log is missing a country for 299 entries.
 ## Analysis
 
-![US v Globe] (https://github.com/MarinerT/EdgarIPHits/data/usvgb.png)
+![US v Globe](data/usvgb.png)
 
 #### Hypothesis Testing
 **Hypothesis Test for Difference in Proportions**
