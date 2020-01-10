@@ -39,8 +39,12 @@ Country | Categorical | Represents the country of origin for the IP Address.
 #### NaN or Missing Data
 The following columns had lack of relevant information: extention, code, size, idx, norefer, noagent, find, crawler, browser.
 Additionally the 2010 Log is missing a country for 299 entries.
-## Analysis
-To identify countries by IP address, IP addresses were converted to decimal notation and searched in IP2Lite, downloadable from its site: https://lite.ip2location.com/. To run the program, a python script was executed against the files to grab the periods from the logs, convert the numbers and output a csv file in an AWS EC2 instance. 
+## Methodology & Analysis
+#### Packages
+Matplotlib, NumPy, SciPy.stats, Pandas, Pandasql, ipaddress
+
+#### Geolocating IP Addresses
+To identify countries by IP address, IP addresses were converted to decimal notation and searched in IP2Lite, downloadable from its site: https://lite.ip2location.com/. To run the program, a python script was executed against the files to grab the periods from the logs, convert the numbers and output a csv file in an AWS EC2 instance. Proxies & VPNs were not acknowledged.
 
 IP Addresses with US Origins and Non-US Origins
 [graph]
