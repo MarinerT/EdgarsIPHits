@@ -31,13 +31,10 @@ Country | Categorical | Represents the country of origin for the IP Address.
 #### Unique Values
 
 ![alt](data/numco.png)
-<details><summary>Number of Countries</summary></details>
 
 ![alt](data/numdoc.png)
-<details><summary>Number of Documents</summary></details>
 
 ![alt](data/numfiler.png)
-<details><summary>Number of Filers</summary></details>
 
 
 #### NaN or Missing Data
@@ -45,7 +42,7 @@ The following columns had lack of relevant information: extention, code, size, i
 Additionally the 2010 Log is missing a country for 299 entries.
 ## Analysis
 
-![US v Globe](data/usvgb.png)
+![alt](data/usvgb.png)
 
 #### Hypothesis Testing
 **Hypothesis Test for Difference in Proportions**
