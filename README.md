@@ -1,5 +1,4 @@
-# Edgar's IP Hits: Has the global financial research market become more global?
-
+# Country Origin IP Addresses on EDGAR: Has financial research globalized?   
 ## Introduction
 This EDA looks at the log files of the Securities and Exchange Commission's EDGAR site from February 2003 and June 2017 to graph any changes in country distributions through geolocating IP addresses.
 
@@ -86,3 +85,4 @@ Since the p-value < alpha, we can reject the Null Hypothesis.
 ## Future Research
 **User Habits** IP addresses are masked, but still identifiable by country.
 **Browser** Looking at possible browsers used to obtain the documents can provide valuable. Determining trends in browser use could assist developers in prioritizing security features, as well as provide cyber combat units with possible attack vectors specified by country and time of day. 
+# YES.
