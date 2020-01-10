@@ -40,7 +40,10 @@ Country | Categorical | Represents the country of origin for the IP Address.
 The following columns had lack of relevant information: extention, code, size, idx, norefer, noagent, find, crawler, browser.
 Additionally the 2010 Log is missing a country for 299 entries.
 ## Analysis
+To identify countries by IP address, IP addresses were converted to decimal notation and searched in IP2Lite, downloadable from its site: https://lite.ip2location.com/. To run the program, a python script was executed against the files to grab the periods from the logs, convert the numbers and output a csv file in an AWS EC2 instance. 
 
+IP Addresses with US Origins and Non-US Origins
+[graph]
 
 #### Hypothesis Testing
 **Hypothesis Test for Difference in Proportions**
@@ -55,7 +58,15 @@ H<sub>*A*</sub>: *p<sub>2017</sub>* < *p<sub>2010</sub>*
 alpha = .05
 The sample is random, normal, independent, and does not represent more than 10% of the population.
 
+The Distribution of Proportions
+[graph]
+Difference in Sample Proportions: .19
 
+[graph]
+p-value = 0.00
+
+Since the p-value < alpha, we can reject the Null Hypothesis. 
 
 ## Future Research
+**User Habits** IP addresses are masked, but still identifiable by country.
 **Browser** Looking at possible browsers used to obtain the documents can provide valuable. Determining trends in browser use could assist developers in prioritizing security features, as well as provide cyber combat units with possible attack vectors specified by country and time of day. 
