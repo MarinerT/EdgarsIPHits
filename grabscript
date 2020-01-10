@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sed -n /"09:30:00"/,/"09:40:00"/p ~/Documents/Data/log20170630.csv > output17.csv
+sed -n /"09:30:00"/,/"09:40:00"/p ~/Documents/Data/log20100630.csv > output10.csv
+sed -n /"09:30:00"/,/"09:40:00"/p ~/Documents/Data/log20030630.csv > output03.csv
