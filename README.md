@@ -30,11 +30,15 @@ Country | Categorical | Represents the country of origin for the IP Address.
 
 #### Unique Values
 
-![alt](data/numco.png) ![alt](data/numdoc.png)
-
-
-![alt](data/numfiler.png)
-
+<p align="center">
+  <img width="460" height="300" src="data/numco.png">
+</p>
+<p align="center">
+  <img width="460" height="300" src="data/numdoc.png">
+</p>
+<p align="center">
+  <img width="460" height="300" src="data/numfiler.png">
+</p>
 
 #### NaN or Missing Data
 The following columns had lack of relevant information: extention, code, size, idx, norefer, noagent, find, crawler, browser.
