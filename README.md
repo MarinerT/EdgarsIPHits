@@ -46,8 +46,13 @@ Matplotlib, NumPy, SciPy.stats, Pandas, Pandasql, ipaddress
 #### Geolocating IP Addresses
 To identify countries by IP address, IP addresses were converted to decimal notation and searched in IP2Lite, downloadable from its site: https://lite.ip2location.com/. To run the program, a python script was executed against the files to grab the periods from the logs, convert the numbers and output a csv file in an AWS EC2 instance. Proxies & VPNs were not acknowledged.
 
-IP Addresses with US Origins and Non-US Origins
-![alt](data/USvGB.png)
+The results were normalized. 
+**IP Addresses with US Origins and Non-US Origins**
+
+<p align="center">
+  <img width="460" height="300" src="data/USvGB.png">
+</p>
+
 
 #### Hypothesis Testing
 **Hypothesis Test for Difference in Proportions**
