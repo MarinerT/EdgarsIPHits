@@ -1,5 +1,5 @@
 # Has financial research globalized?
-## *IP Address Origins from the Security Exchange Commission's EDGAR database logfile set*
+### *IP Address Origins from the Security Exchange Commission's EDGAR database logfile set*
 ## Introduction
 This EDA looks at the log files of the Securities and Exchange Commission's EDGAR site from February 2003 and June 2017 to graph any changes in country distributions through geolocating IP addresses.
 
