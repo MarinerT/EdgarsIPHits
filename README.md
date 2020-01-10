@@ -30,9 +30,8 @@ Country | Categorical | Represents the country of origin for the IP Address.
 
 #### Unique Values
 
-![alt](data/numco.png)
+![alt](data/numco.png) ![alt](data/numdoc.png)
 
-![alt](data/numdoc.png)
 
 ![alt](data/numfiler.png)
 
@@ -42,11 +41,12 @@ The following columns had lack of relevant information: extention, code, size, i
 Additionally the 2010 Log is missing a country for 299 entries.
 ## Analysis
 
-![alt](data/usvgb.png)
 
 #### Hypothesis Testing
 **Hypothesis Test for Difference in Proportions**
-We would expect the same proportion of US Hits in 2017 as US Hits in 2010. 
+Conditions: The sample is random, normal, independent, and does not represent more than 10% of the population.
+Null: We would expect the same proportion of US Hits in 2017 as US Hits in 2010. 
+Alt: The proportions are not the same in 2017 as in 2010.
 
 H<sub>*0*</sub>: *p<sub>2017</sub>* = *p<sub>2010</sub>*  
 
