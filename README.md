@@ -1,7 +1,7 @@
-# Has financial research globalized?
+# Global Democratization of Financial Research
 ### *IP Address Origins from the Security Exchange Commission's EDGAR database logfile set*
-## Introduction
-This EDA looks at the log files of the Securities and Exchange Commission's EDGAR site from February 2003 and June 2017 to graph any changes in country distributions through geolocating IP addresses.
+## Description
+This EDA looks at the log files of the Securities and Exchange Commission's EDGAR site for the period of JUNE 30 09:30:00 - 09:40:00 2003, 2010, 2017 to explore any changes in country distributions. [Source: https://www.sec.gov/dera/data/edgar-log-file-data-set.html]
 
 ## Background
 EDGAR is the SEC's database that houses the periodic financial statements, registrations, and other public declarations as required by law of publicly traded companies on US exchanges.  The US market represents approximately 53% of the global financial trade, making EDGAR a highly valuable resource for investors internationally. [statista.com] 
