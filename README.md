@@ -47,7 +47,7 @@ Matplotlib, NumPy, SciPy.stats, Pandas, Pandasql, ipaddress
 To identify countries by IP address, IP addresses were converted to decimal notation and searched in IP2Lite, downloadable from its site: https://lite.ip2location.com/. To run the program, a python script was executed against the files to grab the periods from the logs, convert the numbers and output a csv file in an AWS EC2 instance. Proxies & VPNs were not acknowledged.
 
 IP Addresses with US Origins and Non-US Origins
-![alt](USvGB.png)
+![alt](data/USvGB.png)
 
 #### Hypothesis Testing
 **Hypothesis Test for Difference in Proportions**
@@ -63,10 +63,10 @@ alpha = .05
 The sample is random, normal, independent, and does not represent more than 10% of the population.
 
 The Distribution of Proportions
-![alt](DistributionofDiff_Null.png)
+![alt](data/DistributionofDiff_Null.png)
 Difference in Sample Proportions: .19
 
-![alt](p-value Region.png)
+![alt](data/p-value Region.png)
 p-value = 0.00
 
 Since the p-value < alpha, we can reject the Null Hypothesis. 
