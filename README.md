@@ -76,7 +76,7 @@ The Distribution of Proportions
 Difference in Sample Proportions: .19
 
 <p align="center">
-  <img width="460" height="300" src="data/p-value Region.png">
+  <img width="1000" height="200" src="data/p-value Region.png">
 </p>
 
 p-value = 0.00
